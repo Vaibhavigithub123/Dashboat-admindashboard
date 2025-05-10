@@ -1,0 +1,54 @@
+.NewProduct {
+  width: 50%;
+  margin: 50px auto;
+  box-shadow: 5px 10px 25px rgba(255, 255, 255, 0.185);
+}
+.newproductTitle {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.newproductform {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.newproductItem {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.newproductItem > label {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+.newproductItem > input {
+  width: 320px;
+  padding: 1rem 1rem;
+  border: 1px solid gray;
+  outline: none;
+  background: transparent;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.newproductItem input[type="text"]:focus {
+  border: 1px solid #e62092;
+  outline: none;
+}
+.newproductItem button {
+  width: 50%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 60px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  background: var(--green);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}

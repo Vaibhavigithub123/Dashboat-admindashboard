@@ -1,0 +1,120 @@
+.ProductUpdate {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.productTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 30px;
+}
+.productTitle {
+  font-size: 30px;
+}
+.productAddbtn {
+  padding: 7px 20px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  background: var(--green);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.productContainer {
+  display: flex;
+  padding: 20px;
+  gap: 1rem;
+  margin-top: 20px;
+}
+.productShow {
+  width: 30%;
+  box-shadow: 5px 10px 25px rgba(255, 255, 255, 0.185);
+}
+.productProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.productProfile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.productProfile .productProfileTitle {
+  font-size: 2rem;
+}
+.productdetailsBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.productAccountInfo {
+  display: flex;
+  gap: 2rem;
+}
+.productUpdate {
+  box-shadow: 5px 10px 25px rgba(255, 255, 255, 0.185);
+}
+.productUpdate .edit {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.productUpdateForm {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px;
+  gap: 2rem;
+}
+.productUpdateItem {
+  display: flex;
+  gap: 1rem;
+}
+.productUpdateInput {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.8rem;
+}
+.productUpdateInput label {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.productUpdateInput input {
+  width: 320px;
+  padding: 1rem 1rem;
+  border: 1px solid gray;
+  outline: none;
+  background: transparent;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.productUpdateInput input[type="text"]:focus {
+  border: 1px solid #e62092;
+  outline: none;
+}
+.productUpdatebtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.productUpdatebtn button {
+  width: 20%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  background: var(--pink-gradient);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}

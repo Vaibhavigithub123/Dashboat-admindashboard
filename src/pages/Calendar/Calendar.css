@@ -1,0 +1,73 @@
+.calendar-container {
+  width: 90%;
+  margin: 40px auto;
+  max-width: 1100px;
+  padding: 0rem 5rem;
+}
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal Box */
+.modal {
+  width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.modal input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Modal Buttons */
+.modal-buttons {
+  margin-top: 10px;
+}
+.modal-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.modal-buttons > :nth-child(1) {
+  background: #007bff;
+  color: white;
+}
+.modal-buttons > :nth-child(2) {
+  background: #ccc;
+}
+
+/* Increase size of cells in month view */
+.fc-daygrid-day {
+  min-height: 100px;
+}
+
+/* Increase height of time slots in week/day view */
+.fc-timegrid-slot {
+  height: 60px !important; /* Adjust slot height */
+}
+
+/* Ensure calendar stretches properly */
+.fc {
+  max-height: 90vh; /* Adjust based on your layout */
+}
+.fc .fc-scrollgrid-section-sticky > * {
+  background-color: transparent; /* Change default background color of white from first table row in calendar */
+}

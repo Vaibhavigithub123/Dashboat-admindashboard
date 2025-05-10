@@ -1,0 +1,99 @@
+.kanbanwrapper {
+  width: 90%;
+  height: auto;
+  margin: 50px auto;
+  text-align: center;
+}
+.kanbanwrapper .title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.kanbancontainer {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  padding: 20px 10px;
+  align-items: flex-start; /*To allow natural height based on content of todos, inprogress and completed tasks */
+}
+.listscontainer {
+  width: 40%;
+  height: auto;
+}
+.tasksHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tasksHeading > :nth-child(2) {
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.todoBottom,
+.inprogressBottom,
+.completedBottom {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.taskstodo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    65.35deg,
+    rgba(65, 65, 65, 0.67) -1.72%,
+    rgba(48, 189, 220) 163.54%
+  );
+  position: relative;
+  border-radius: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  gap: 5px;
+}
+.tasksTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: hidden;
+}
+
+.tasksTitle span {
+  font-size: 16px;
+  font-weight: bold;
+  white-space: normal; /* Allow title to break and wrap */
+  line-height: 1.2;
+}
+.tasksTitle p {
+  font-size: 14px;
+  white-space: normal; /* Allow description to wrap */
+  overflow-wrap: break-word; /* Ensures long words break */
+}
+#taskinprogress {
+  background: linear-gradient(
+    65.35deg,
+    rgba(41, 41, 41, 0.67) -1.72%,
+    rgba(220, 48, 48) 163.54%
+  );
+}
+#taskcompleted {
+  background: linear-gradient(
+    65.35deg,
+    rgba(65, 65, 65, 0.67) -1.72%,
+    rgba(48, 220, 86) 163.54%
+  );
+}
+
+.crossmark {
+  font-size: 20px;
+  position: absolute;
+  top: 2px;
+  right: 3px;
+  z-index: 10;
+}

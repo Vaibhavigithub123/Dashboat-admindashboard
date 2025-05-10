@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  --black: #212020;
+  --green: rgb(54, 234, 54);
+  --pink-gradient: linear-gradient(
+    45deg, #b95093 25%, #E62092 51%, #FF4D94 26%
+  );
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black);
+  color: #fff;
+  font-family: 'Public Sans', sans-serif;
+  overflow-x: hidden;
+}
+.themeContainer{
+  background-color: rgba(0, 0, 0, 0.54);
+  border-radius: 20px;
+  padding: 2rem;
+}
+.grey-container {
+  border-top: 0.3px solid rgba(255, 255, 255, 0.185);
+  border-bottom: 0.3px solid rgba(255, 255, 255, 0.185);
+  background: linear-gradient(
+    90deg,
+    rgba(53, 53, 53, 0) 1.21%,
+    rgba(53, 53, 53, 0.46) 49.45%,
+    rgba(53, 53, 53, 0) 103.83%
+  );
+  padding: 1.5rem 1rem;
+}

@@ -1,0 +1,32 @@
+.productslists {
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 20%;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.actionBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 11px;
+  background-color: #3bb077;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.productListDelete {
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}

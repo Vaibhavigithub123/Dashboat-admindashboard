@@ -1,0 +1,77 @@
+.container {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.newUserCards {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.newUsersCards .title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.profilecardlist {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 1rem;
+  padding-left: 30px;
+}
+.profilecardlist img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profilecardname {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.profilecardname > :nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.profilecardname > :nth-child(2) {
+  color: rgba(255, 255, 255, 0.835);
+  font-size: 1rem;
+}
+.transactionList {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.transactionList .title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.transactionprofilelist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.transactionprofilelist img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.transactionprofilelist > :nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.transactionprofilelist > :nth-child(3) {
+  color: rgba(255, 255, 255, 0.835);
+  font-size: 1rem;
+  margin-left: 1.5rem;
+}
+.transactionprofilelist > :nth-child(4) {
+  font-size: 0.8rem;
+  color: var(--green);
+}

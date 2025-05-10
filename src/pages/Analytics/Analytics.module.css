@@ -1,0 +1,21 @@
+.analyticsContainer {
+  width: 90%;
+  height: 100%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.analyticsTop {
+  display: flex;
+  gap: 2rem;
+}
+.LineChartcontainer {
+  flex: 1;
+}
+.pieChartcontainer {
+  flex: 1;
+}
+.piechart {
+  margin-top: 1rem;
+}

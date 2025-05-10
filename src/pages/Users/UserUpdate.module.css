@@ -1,0 +1,129 @@
+.userupdate {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.userTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 30px;
+}
+.userTitle {
+  font-size: 30px;
+}
+.userAddbtn {
+  padding: 7px 20px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  background: var(--green);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.userContainer {
+  display: flex;
+  padding: 20px;
+  gap: 1rem;
+  margin-top: 20px;
+}
+.userShow {
+  width: 30%;
+  box-shadow: 5px 10px 25px rgba(255, 255, 255, 0.185);
+}
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.userProfile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.userTopTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userTopTitle .userProfileTitle {
+  font-size: 2rem;
+}
+.userTopTitle .userProfession {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.userdetailsBottom {
+  margin: 10px 30px;
+  padding-top: 20px;
+}
+.userAccountInfo {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  gap: 2rem;
+}
+.userUpdate {
+  flex: 1;
+  box-shadow: 5px 10px 25px rgba(255, 255, 255, 0.185);
+}
+.userUpdate .edit {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.userUpdateForm {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px;
+  gap: 2rem;
+}
+.userUpdateItem {
+  display: flex;
+  gap: 1rem;
+}
+.userUpdateInput {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.8rem;
+}
+.userUpdateInput label {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.userUpdateInput input {
+  width: 320px;
+  padding: 1rem 1rem;
+  border: 1px solid gray;
+  outline: none;
+  background: transparent;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.userUpdateInput input[type="text"]:focus {
+  border: 1px solid #e62092;
+  outline: none;
+}
+.userUpdatebtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.userUpdatebtn button {
+  width: 20%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  background: var(--pink-gradient);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -1,0 +1,65 @@
+.taskcontainer {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  padding: 2rem;
+  z-index: 999;
+}
+.taskheading,
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.taskheading > :nth-child(1) {
+  font-size: 25px;
+  font-weight: 500;
+}
+.taskheading > :nth-child(2) {
+  padding: 1rem 1rem;
+  border: 1px solid gray;
+  outline: none;
+  background: transparent;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.taskheading input[type="text"]:focus {
+  border: 1px solid #e62092;
+  outline: none;
+}
+.description > :nth-child(1) {
+  font-size: 20px;
+}
+.description > :nth-child(2) {
+  padding: 1rem 1rem;
+  border: 1px solid gray;
+  outline: none;
+  background: transparent;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.description input[type="text"]:focus {
+  border: 1px solid #e62092;
+  outline: none;
+}
+.addtaskbtn button {
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  background: var(--pink-gradient);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
