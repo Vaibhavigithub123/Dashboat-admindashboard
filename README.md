@@ -18,10 +18,6 @@
 
 
 
-## Screenshot
-
-![Dashboard Screenshot](Screenshot.png)
-
 
 ## Tech Stack
 
